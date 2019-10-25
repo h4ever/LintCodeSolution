@@ -5,19 +5,40 @@ import main.java.structure.ListNode;
 public class InsertionSortList {
 	public ListNode insertionSortList(ListNode head) {
 		ListNode helper = new ListNode(0);
-		ListNode it = head;
 		ListNode pre = helper;
 		ListNode next = null;
-		while (it != null) {
-			next = it.next;
-			while (pre.next != null && pre.next.val < it.val) {
+		while (head != null) {
+			next = head.next;
+			while (pre.next != null && pre.next.val < head.val) {
 				pre = pre.next;
 			}
-			it.next = pre.next;
-			pre.next = it;
+			head.next = pre.next;
+			pre.next = head;
 			pre = helper;
-			it = next;
+			head = next;
 		}
 		return helper.next;
 	}
+	
+	public ListNode insertionSortList2(ListNode head) {
+		ListNode helper = new ListNode(0);
+		ListNode pre = helper;
+		ListNode next = null;
+		while (head != null) {
+			next = head.next;
+			
+			if(pre.val>head.val) pre = helper;
+			
+			while (pre.next != null && pre.next.val < head.val) {
+				pre = pre.next;
+			}
+			
+			head.next = pre.next;
+			pre.next = head;
+			
+			head = next;
+		}
+		return helper.next;
+	}
+	
 }

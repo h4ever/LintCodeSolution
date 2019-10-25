@@ -2,17 +2,18 @@ package main.java.solutions;
 
 public class MaximumSubarray53 {
 	
-	int max=Integer.MIN_VALUE;
+	public int start = 0;
+	public int end = 0;
 	
 	public int maxSubArray(int[] nums) {
         int n = nums.length;
-        int sum = nums[0];
-        int max = sum;
+        int maxEndingHere = nums[0];
+        int maxSoFar = maxEndingHere;
         for(int i = 1; i < n; i++){
-            sum = nums[i] + (sum > 0 ? sum : 0);
-            max = Math.max(max, sum);
+        	maxEndingHere =Math.max(nums[i], maxEndingHere+nums[i]) ;
+        	maxSoFar = Math.max(maxSoFar, maxEndingHere);
         }
-        return max;
+        return maxSoFar;
     }
 	
 	public int maxSubArrayDP(int[] nums) {
@@ -27,5 +28,28 @@ public class MaximumSubarray53 {
         }
         
         return max;
+    }
+	
+	public int maxSubArray2(int[] nums) {
+        int n = nums.length;
+        int maxEndingHere = nums[0];
+        int maxSoFar = maxEndingHere;
+        int temp = 0;
+        for(int i = 1; i < n; i++){
+        	if(maxEndingHere<0){
+        		temp = i;
+        		maxEndingHere = nums[i];
+        	}else{
+        		maxEndingHere += nums[i];
+        	}
+        	
+        	if(maxEndingHere>maxSoFar){
+        		start = temp;
+        		end  =i;
+        		maxSoFar = maxEndingHere;
+        	}
+        	
+        }
+        return maxSoFar;
     }
 }
