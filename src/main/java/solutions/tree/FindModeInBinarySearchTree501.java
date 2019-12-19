@@ -1,0 +1,57 @@
+package main.java.solutions.tree;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import main.java.structure.TreeNode;
+
+public class FindModeInBinarySearchTree501 {
+	
+	int maxCount = -1;
+	List<Integer> modes = new ArrayList<>();
+	
+	public int[] findMode(TreeNode root){
+		List<Integer> nodes = new ArrayList<>();
+		inorderTraverse(root,nodes);
+		findMode(nodes);
+		int[] ans = new int[modes.size()];
+		for(int i=0;i<modes.size();i++){
+			ans[i]=modes.get(i);
+		}
+		return ans;
+	}
+	
+	public void inorderTraverse(TreeNode root,List<Integer> nodes){
+		if(root==null) return;
+		inorderTraverse(root.left,nodes);
+		nodes.add(root.val);
+		inorderTraverse(root.right,nodes);
+	}
+	
+	public void findMode(List<Integer> nodes){
+		if(nodes.isEmpty()) return;
+		int currCount = 1;
+		int prev = nodes.get(0);
+		for(int i=1;i<nodes.size();i++){
+			int curr=nodes.get(i);
+			if(curr==prev){
+				currCount++;
+			}else{
+				updateModes(currCount,prev);
+				currCount=1;
+				prev=curr;
+			}
+		}
+		updateModes(currCount,prev);
+
+	}
+	public void updateModes(int currCount,int prev){
+		if(maxCount<currCount){
+			maxCount = currCount;
+			modes.clear();
+			modes.add(prev);
+		}else if(maxCount==currCount){
+			modes.add(prev);
+		}
+	}
+}

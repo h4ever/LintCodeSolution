@@ -1,4 +1,4 @@
-package test.java.solutions;
+package test.java.solutions.tree;
 
 import static org.junit.Assert.*;
 
@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import main.java.solutions.BinaryTreePaths257;
+import main.java.solutions.tree.BinaryTreePaths257;
 import main.java.structure.TreeNode;
 
 public class BinaryTreePaths257Test {

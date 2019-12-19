@@ -1,10 +1,10 @@
-package test.java.solutions;
+package test.java.solutions.tree;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import main.java.solutions.BinaryTreeLevelOrderTraversal102;
+import main.java.solutions.tree.BinaryTreeLevelOrderTraversal102;
 import main.java.structure.TreeNode;
 
 public class BinaryTreeLevelOrderTraversal102Test {

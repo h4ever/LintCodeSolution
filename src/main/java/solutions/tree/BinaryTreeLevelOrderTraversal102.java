@@ -1,4 +1,4 @@
-package main.java.solutions;
+package main.java.solutions.tree;
 
 import java.util.LinkedList;
 import java.util.Queue;
