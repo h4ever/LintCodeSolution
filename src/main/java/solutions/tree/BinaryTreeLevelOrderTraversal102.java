@@ -43,10 +43,7 @@ public class BinaryTreeLevelOrderTraversal102 {
 	                if(queue.peek().right != null) {
 	                	queue.offer(queue.peek().right);
 	                }
-	                
 	                res.append(queue.poll().val).append(",");
-	     
-	         
 	            }
 	        }
 	        return res.toString();
