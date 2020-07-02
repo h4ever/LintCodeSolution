@@ -6,6 +6,9 @@ import java.util.List;
 import main.java.structure.TreeNode;
 
 public class BinaryTreePaths257 {
+	/*
+	Given a binary tree, return all root-to-leaf paths.
+	 */
 	public List<String> binaryTreePaths(TreeNode root) {
 		List<String> res = new ArrayList<>();
 		StringBuilder sb = new StringBuilder();

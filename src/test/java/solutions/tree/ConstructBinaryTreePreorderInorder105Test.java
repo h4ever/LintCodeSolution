@@ -9,7 +9,13 @@ import main.java.solutions.tree.ConstructBinaryTreePreorderInorder105;
 import main.java.structure.TreeNode;
 
 public class ConstructBinaryTreePreorderInorder105Test {
-
+    /*
+                1
+           2                 4
+        7     6           3         5
+                       8     12       20
+                           10  19
+     */
 	@Test
 	public void buildTree() {
 		int[] preOrder = {1,2,7,6,4,3,8,12,10,19,5,20};
