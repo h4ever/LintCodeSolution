@@ -1,12 +1,10 @@
 package test.java.solutions;
 
-import static org.junit.Assert.*;
-
 import java.util.Arrays;
 
 import org.junit.Test;
 
-import main.java.solutions.MergeSortedArray88;
+import main.java.solutions.array.MergeSortedArray88;
 
 public class MergeSortedArray88Test {
 
