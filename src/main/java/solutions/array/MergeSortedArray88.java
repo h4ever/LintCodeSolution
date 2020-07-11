@@ -13,15 +13,26 @@ Note:
 		public void merge(int[] nums1,int m,int[] nums2,int n){
 			int p=m+n-1;
 			int i=m-1;int j=n-1;
-			while(i>=0&j>=0){
+			while(i>=0&&j>=0){
 				if(nums1[i]>=nums2[j]){
 					nums1[p--]=nums1[i--];
 				}else{
 					nums1[p--]=nums2[j--];
 				}
 			}
-			while(j>=0){
+			while(j>=0){ //because nums1 is the container ... for the situation : nums1.length < nums2.length
 				nums1[p--]=nums2[j--];
 			}
+		}
+
+		public int[] merge(int[] nums1, int[] nums2){
+			int m=nums1.length;
+			int n=nums2.length;
+			int[] ans = new int[m+n];
+			int i=0,j=0,p=0;
+			while(p<m+n){
+				ans[p++] = nums1[i]<nums2[j]?nums1[i++]:nums2[j++];
+			}
+			return ans;
 		}
 }
