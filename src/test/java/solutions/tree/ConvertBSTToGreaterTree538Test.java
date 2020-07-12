@@ -6,8 +6,6 @@ import main.java.solutions.tree.ConvertBSTToGreaterTree538;
 import main.java.structure.TreeNode;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class ConvertBSTToGreaterTree538Test {
     /*
                 1

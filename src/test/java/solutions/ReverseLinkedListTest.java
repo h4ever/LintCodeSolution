@@ -1,13 +1,11 @@
 package test.java.solutions;
 
-import static org.junit.Assert.*;
-
+import main.java.solutions.ReverseLinkedList;
+import main.java.structure.ListNode;
 import org.junit.Before;
 import org.junit.Test;
 
-import junit.framework.Assert;
-import main.java.solutions.ReverseLinkedList;
-import main.java.structure.ListNode;
+import static org.junit.Assert.assertEquals;
 
 public class ReverseLinkedListTest {
 	

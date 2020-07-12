@@ -1,7 +1,5 @@
 package main.java.solutions.array;
 
-import java.util.Arrays;
-
 public class Shift2DGrid1260 {
     public static void shiftGrid1Step(int[][] grid){
         int m = grid.length;

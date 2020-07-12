@@ -1,11 +1,8 @@
 package test.java.solutions;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
 import main.java.solutions.AddTwoNumbers;
 import main.java.structure.ListNode;
+import org.junit.Test;
 
 public class AddTwoNumbersTest {
 

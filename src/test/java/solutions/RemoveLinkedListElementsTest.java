@@ -1,11 +1,10 @@
 package test.java.solutions;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
 import main.java.solutions.RemoveLinkedListElements;
 import main.java.structure.ListNode;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class RemoveLinkedListElementsTest {
 

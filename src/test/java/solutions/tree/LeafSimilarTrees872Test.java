@@ -7,8 +7,6 @@ import org.junit.Test;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-import static org.junit.Assert.*;
-
 public class LeafSimilarTrees872Test {
     /*
                        3
@@ -19,7 +17,7 @@ public class LeafSimilarTrees872Test {
         */
     @Test
     public void dfs() {
-        TreeNode root = LongestUnivaluePath687Test.generateTestData();
+        TreeNode root = test.java.solutions.tree.LongestUnivaluePath687Test.generateTestData();
         LeafSimilarTrees872 testInstance = new LeafSimilarTrees872();
         String leaves = testInstance.dfs(root);
         System.out.println(leaves);
@@ -27,7 +25,7 @@ public class LeafSimilarTrees872Test {
 
     @Test
     public void dfs2() {
-        TreeNode root = LongestUnivaluePath687Test.generateTestData();
+        TreeNode root = test.java.solutions.tree.LongestUnivaluePath687Test.generateTestData();
         LeafSimilarTrees872 testInstance = new LeafSimilarTrees872();
         Deque<TreeNode> stack = new ArrayDeque<>();
         stack.push(root);

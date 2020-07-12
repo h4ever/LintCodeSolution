@@ -1,11 +1,8 @@
 package test.java.solutions.tree;
 
-import main.java.solutions.tree.ConstructBinaryTreePreorderInorder105;
 import main.java.solutions.tree.LongestUnivaluePath687;
 import main.java.structure.TreeNode;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class LongestUnivaluePath687Test {
     /*

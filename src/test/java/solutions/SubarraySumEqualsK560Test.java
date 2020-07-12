@@ -1,12 +1,9 @@
 package test.java.solutions;
 
-import static org.junit.Assert.*;
-
-import java.util.List;
-
+import main.java.solutions.SubarraySumEqualsK560;
 import org.junit.Test;
 
-import main.java.solutions.SubarraySumEqualsK560;
+import java.util.List;
 
 public class SubarraySumEqualsK560Test {
 

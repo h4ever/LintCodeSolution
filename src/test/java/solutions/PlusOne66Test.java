@@ -1,10 +1,7 @@
 package test.java.solutions;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
 import main.java.solutions.PlusOne66;
+import org.junit.Test;
 
 public class PlusOne66Test {
 

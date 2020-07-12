@@ -31,7 +31,13 @@ Note:
 			int[] ans = new int[m+n];
 			int i=0,j=0,p=0;
 			while(p<m+n){
-				ans[p++] = nums1[i]<nums2[j]?nums1[i++]:nums2[j++];
+				if(i<m&&j<n){
+					ans[p++] = nums1[i]<nums2[j]?nums1[i++]:nums2[j++];
+				}else if(j<n){
+					ans[p++] = nums2[j++];
+				}else if(i<m){
+					ans[p++] = nums1[i++];
+				}
 			}
 			return ans;
 		}

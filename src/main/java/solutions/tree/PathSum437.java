@@ -1,9 +1,9 @@
 package main.java.solutions.tree;
 
+import main.java.structure.TreeNode;
+
 import java.util.HashMap;
 import java.util.Map;
-
-import main.java.structure.TreeNode;
 
 public class PathSum437 {
 	/*

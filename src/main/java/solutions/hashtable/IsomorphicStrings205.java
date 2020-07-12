@@ -1,8 +1,5 @@
 package main.java.solutions.hashtable;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class IsomorphicStrings205 {
     /*
     Given two strings s and t, determine if they are isomorphic.

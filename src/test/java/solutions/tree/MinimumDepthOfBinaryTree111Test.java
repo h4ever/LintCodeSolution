@@ -1,13 +1,11 @@
 package test.java.solutions.tree;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
-import junit.framework.Assert;
 import main.java.solutions.tree.ConstructBinaryTreePreorderInorder105;
 import main.java.solutions.tree.MinimumDepthOfBinaryTree111;
 import main.java.structure.TreeNode;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class MinimumDepthOfBinaryTree111Test {
 

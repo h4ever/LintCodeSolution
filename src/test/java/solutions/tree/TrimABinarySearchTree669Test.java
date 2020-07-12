@@ -5,8 +5,6 @@ import main.java.solutions.tree.TrimABinarySearchTree669;
 import main.java.structure.TreeNode;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class TrimABinarySearchTree669Test {
 
     @Test

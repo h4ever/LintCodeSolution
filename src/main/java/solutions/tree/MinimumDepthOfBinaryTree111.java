@@ -1,9 +1,9 @@
 package main.java.solutions.tree;
 
+import main.java.structure.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.Deque;
-
-import main.java.structure.TreeNode;
 
 public class MinimumDepthOfBinaryTree111 {
 	/*

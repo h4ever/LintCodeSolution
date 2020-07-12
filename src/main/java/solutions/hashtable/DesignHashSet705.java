@@ -1,6 +1,8 @@
 package main.java.solutions.hashtable;
 
-import java.util.*;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 public class DesignHashSet705 {
     List<Integer>[] container = null;

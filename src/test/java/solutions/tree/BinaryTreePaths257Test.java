@@ -1,13 +1,10 @@
 package test.java.solutions.tree;
 
-import static org.junit.Assert.*;
-
-import java.util.List;
-
-import org.junit.Test;
-
 import main.java.solutions.tree.BinaryTreePaths257;
 import main.java.structure.TreeNode;
+import org.junit.Test;
+
+import java.util.List;
 
 public class BinaryTreePaths257Test {
 

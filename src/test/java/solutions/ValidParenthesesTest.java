@@ -1,12 +1,11 @@
 package test.java.solutions;
 
-import static org.junit.Assert.*;
-
+import main.java.solutions.ValidParentheses;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import main.java.solutions.ValidParentheses;
+import static org.junit.Assert.assertTrue;
 
 public class ValidParenthesesTest {
 

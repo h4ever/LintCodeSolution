@@ -2,8 +2,6 @@ package main.java.solutions.tree;
 
 import main.java.structure.Node;
 
-import java.util.List;
-
 public class MaximumDepthOfNaryTree559 {
     /*
     Given a n-ary tree, find its maximum depth.

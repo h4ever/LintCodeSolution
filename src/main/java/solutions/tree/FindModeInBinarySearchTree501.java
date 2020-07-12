@@ -1,9 +1,9 @@
 package main.java.solutions.tree;
 
+import main.java.structure.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import main.java.structure.TreeNode;
 
 public class FindModeInBinarySearchTree501 {
 	/*

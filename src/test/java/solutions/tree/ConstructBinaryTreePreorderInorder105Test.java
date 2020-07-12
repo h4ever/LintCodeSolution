@@ -1,12 +1,9 @@
 package test.java.solutions.tree;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
 import main.java.solutions.tree.BinaryTreeLevelOrderTraversal102;
 import main.java.solutions.tree.ConstructBinaryTreePreorderInorder105;
 import main.java.structure.TreeNode;
+import org.junit.Test;
 
 public class ConstructBinaryTreePreorderInorder105Test {
     /*

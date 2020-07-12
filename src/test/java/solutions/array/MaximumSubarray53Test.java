@@ -1,10 +1,9 @@
 package test.java.solutions.array;
 
-import static org.junit.Assert.*;
-
+import main.java.solutions.array.MaximumSubarray53;
 import org.junit.Test;
 
-import main.java.solutions.array.MaximumSubarray53;
+import static org.junit.Assert.assertEquals;
 
 public class MaximumSubarray53Test {
 

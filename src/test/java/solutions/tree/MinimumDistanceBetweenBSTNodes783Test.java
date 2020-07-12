@@ -4,8 +4,6 @@ import main.java.solutions.tree.MinimumDistanceBetweenBSTNodes783;
 import main.java.structure.TreeNode;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class MinimumDistanceBetweenBSTNodes783Test {
 
     @Test

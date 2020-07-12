@@ -1,10 +1,7 @@
 package test.java.solutions;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
 import main.java.solutions.AddBinary67;
+import org.junit.Test;
 
 public class AddBinary67Test {
 
