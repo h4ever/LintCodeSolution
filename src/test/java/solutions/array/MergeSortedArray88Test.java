@@ -16,5 +16,4 @@ public class MergeSortedArray88Test {
 		int[] ans = testInstance.merge(nums1,  nums2);
 		System.out.println(Arrays.toString(ans));
 	}
-
 }
