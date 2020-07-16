@@ -2,7 +2,7 @@ package main.java.solutions.array;
 
 import java.util.Arrays;
 
-public class Missing268Number {
+public class MissingNumber268 {
     /*
     Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
      */

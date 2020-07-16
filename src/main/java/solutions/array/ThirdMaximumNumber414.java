@@ -7,18 +7,19 @@ public class ThirdMaximumNumber414 {
     /*
     Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
      */
+    public static final int TOPN = 3;
     public int thirdMax(int[] nums) {
-        Queue<Integer> top3 = new PriorityQueue<>(3);
+        Queue<Integer> top3 = new PriorityQueue<>(TOPN+1);
         for(int num:nums){
             if(!top3.contains(num)){
                 top3.offer(num);
             }
-            if(top3.size()>3){
+            if(top3.size()>TOPN){
                 top3.poll();
             }
         }
-        if(top3.size()==2){
-            top3.poll();
+        if(top3.size()<TOPN){
+            while(top3.size()>1) top3.poll();
         }
         return top3.peek();
     }
