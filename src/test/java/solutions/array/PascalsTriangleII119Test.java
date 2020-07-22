@@ -10,6 +10,6 @@ public class PascalsTriangleII119Test {
     @Test
     public void getRow() {
         PascalsTriangleII119 testInstance = new PascalsTriangleII119();
-        System.out.println(testInstance.getRow2(6));
+        System.out.println(testInstance.getRow(6));
     }
 }
