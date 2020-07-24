@@ -1,5 +1,6 @@
-package main.java.solutions.array;
+package test.java.solutions.array;
 
+import main.java.solutions.array.FindAllNumbersDisappearedInAnArray448;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
