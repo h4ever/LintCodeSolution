@@ -1,5 +1,7 @@
 package main.java.solutions.array;
 
+import java.util.*;
+
 public class Shift2DGrid1260 {
     public static void shiftGrid1Step(int[][] grid){
         int m = grid.length;
@@ -17,6 +19,28 @@ public class Shift2DGrid1260 {
             grid[r][0] = lastCol[r-1];
         }
         grid[0][0] = lastCol[m-1];
+    }
+
+    public List<List<Integer>> shiftGrid(int[][] grid, int k) {
+        Deque<Integer> q = new ArrayDeque<>();
+        int m = grid.length;
+        int n = grid[0].length;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                q.offer(grid[i][j]);
+            }
+        }
+        k %= (m*n);
+        while(k-->0) q.offerFirst(q.pollLast());
+        List<List<Integer>> res = new ArrayList<>();
+        while(!q.isEmpty()){
+            List<Integer> row = new ArrayList<>();
+            int i=n;
+            while(i-->0) row.add(q.pollFirst());
+            res.add(row);
+        }
+        return res;
+
     }
 
     public static void main(String[] args) {
