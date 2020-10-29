@@ -57,7 +57,7 @@ public class TheMaze490 {
     }
     private static int m = 0;
     private static int n = 0;
-    private static int[][] dirs = {{1,0},{-1,0},{0,-1},{0,1}};
+    private final static int[][] dirs = {{1,0},{-1,0},{0,-1},{0,1}};
     public static boolean findHer(String[] maze){
         m = maze.length;
         n = maze[0].length();

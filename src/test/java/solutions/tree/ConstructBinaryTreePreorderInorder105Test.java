@@ -20,8 +20,10 @@ public class ConstructBinaryTreePreorderInorder105Test {
 		ConstructBinaryTreePreorderInorder105 testInstance = new ConstructBinaryTreePreorderInorder105();
 		
 		TreeNode root = testInstance.buildTree(preOrder, inOrder);
+		TreeNode root2 = testInstance.buildTree2(preOrder,inOrder);
 		BinaryTreeLevelOrderTraversal102 testInstance2 = new BinaryTreeLevelOrderTraversal102();
 		System.out.println(testInstance2.levelOrder(root));
+		System.out.println(testInstance2.levelOrder(root2));
 	}
 
 }
