@@ -48,13 +48,43 @@ public class RotateMatrix {
                 matrix[right][down] = matrix[down][left];
                 matrix[down][left] = leftUp;
             }
-012.3
 
         }
     }
+
+    public static void transpos(int[][] matrix){
+        int n=matrix.length;
+        if(n!=matrix[0].length) return;
+        for(int i=0;i<matrix.length-1;i++){
+            for(int j=0;j<matrix.length-1-i;j++){
+                int temp = matrix[i][j];
+                matrix[i][j]=matrix[n-1-j][n-1-i];
+                matrix[n-1-j][n-1-i]=temp;
+            }
+        }
+    }
+
+    public static void postrans(int[][] matrix){
+        int n=matrix.length;
+        if(n!=matrix[0].length) return;
+        for(int i=0;i<matrix.length-1;i++){
+            for(int j=i+1;j<matrix.length;j++){
+                int temp = matrix[i][j];
+                matrix[i][j]=matrix[j][i];
+                matrix[j][i]=temp;
+            }
+        }
+    }
+
+
     public static void main(String[] args) {
         int[][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
-        rotateR(matrix,4);
+        transpos(matrix);
+        for(int j=0;j<4;j++){
+            System.out.println(Arrays.toString(matrix[j]));
+        }
+        System.out.println("----------------");
+        postrans(matrix);
         for(int j=0;j<4;j++){
             System.out.println(Arrays.toString(matrix[j]));
         }
