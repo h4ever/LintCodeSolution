@@ -1,4 +1,4 @@
-package main.java.solutions;
+package main.java.solutions.array;
 
 import java.util.Arrays;
 
@@ -48,17 +48,52 @@ public class RotateMatrix {
                 matrix[right][down] = matrix[down][left];
                 matrix[down][left] = leftUp;
             }
-012.3
 
         }
     }
+
+    public static void reverseUpToDown(int[][] matrix){
+        int n = matrix.length;
+        for(int i = 0; i < n/2; i++){
+            for(int j = 0; j < n; j++){
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[n - 1 - i][j];
+                matrix[n - 1 - i][j] = temp;
+            }
+        }
+    }
+
+    public static void reverseLeftToRight(int[][] matrix){
+        int n = matrix.length;
+        for(int j = 0; j < n/2; j++){
+            for(int i = 0; i < n; i++){
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[i][n-1-j];
+                matrix[i][n-1-j] = temp;
+            }
+        }
+    }
+
+
+    public static void swap(int[][] matrix){
+        for(int i=0;i<matrix.length;i++){
+            for(int j=i+1;j<matrix[0].length;j++){
+                int temp = matrix[i][j];
+                matrix[i][j]=matrix[j][i];
+                matrix[j][i]=temp;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         int[][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
-        rotateR(matrix,4);
+
+        swap(matrix);
+        reverseLeftToRight(matrix);
         for(int j=0;j<4;j++){
             System.out.println(Arrays.toString(matrix[j]));
         }
-        System.out.println();
+
     }
 }
 
