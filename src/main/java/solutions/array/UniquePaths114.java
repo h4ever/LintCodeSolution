@@ -12,7 +12,6 @@ public class UniquePaths114 {
            result = result.multiply(a);
         }
         return  result;
-
     }
 
     public int uniquePaths(int m, int n) {

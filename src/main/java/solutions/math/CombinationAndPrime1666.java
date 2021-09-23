@@ -42,6 +42,20 @@ public class CombinationAndPrime1666 {
         int k=3;
         System.out.println(getWays(a,k));
     }
-
+    private static String encrypt(String s){
+        StringBuilder sb = new StringBuilder();
+        for(int i=0;i<s.length();i++){
+            char ch = s.charAt(i);
+            if(Character.isLetter(ch)){
+                if(Character.isLowerCase(ch)){
+                    if(ch=='z') sb.append('A');
+                    else sb.append(Character.toUpperCase(ch +1));
+                }else{
+                    if(ch=='Z') sb.append('a');
+                }
+            }
+        }
+        return sb.toString();
+    }
 
 }

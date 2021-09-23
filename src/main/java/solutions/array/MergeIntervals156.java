@@ -11,7 +11,7 @@ public class MergeIntervals156 {
             return intervals;
 
         // Sort by ascending starting point using an anonymous Comparator
-        intervals.sort((i1, i2) -> Integer.compare(i1.start, i2.start));
+        intervals.sort(Comparator.comparingInt(i -> i.start));
 
         List<Interval> result = new LinkedList<Interval>();
         int start = intervals.get(0).start;
@@ -30,6 +30,30 @@ public class MergeIntervals156 {
         // Add the last interval
         result.add(new Interval(start, end));
         return result;
+    }
+
+    public int[][] merge(int[][] intervals) {
+        if (intervals.length <= 1)
+            return intervals;
+
+        Arrays.sort(intervals, Comparator.comparingInt(t -> t[0]));
+
+        List<int[]> result = new LinkedList<int[]>();
+
+        int[] newInterval = intervals[0];
+        result.add(newInterval);
+
+        for (int[] interval:intervals) {
+
+            if (interval[0] <= newInterval[1])
+                newInterval[1] = Math.max(newInterval[1], interval[1]);
+            else {
+                newInterval = interval;
+                result.add(newInterval);
+            }
+        }
+
+        return result.toArray(new int[result.size()][]);
     }
 
     public List<Interval> merge2(List<Interval> intervals) {
