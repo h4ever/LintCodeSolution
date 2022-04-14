@@ -1,4 +1,4 @@
-package main.java.solutions.hashtable;
+package solutions.hashtable;
 
 import java.util.Iterator;
 import java.util.LinkedList;

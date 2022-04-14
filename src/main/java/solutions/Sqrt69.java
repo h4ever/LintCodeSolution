@@ -1,4 +1,4 @@
-package main.java.solutions;
+package solutions;
 
 public class Sqrt69 {
 	public int mySqrt(int x) {

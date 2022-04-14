@@ -1,7 +1,7 @@
-package test.java.solutions.tree;
+package solutions.tree;
 
-import main.java.solutions.tree.BinaryTreePaths257;
-import main.java.structure.TreeNode;
+import solutions.tree.BinaryTreePaths257;
+import structure.TreeNode;
 import org.junit.Test;
 
 import java.util.List;

@@ -1,6 +1,6 @@
-package test.java.solutions.array;
+package solutions.array;
 
-import main.java.solutions.array.SortArrayByParityII922;
+import solutions.array.SortArrayByParityII922;
 import org.junit.Test;
 
 import java.util.Arrays;

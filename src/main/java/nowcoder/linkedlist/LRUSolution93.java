@@ -1,4 +1,4 @@
-package main.java.nowcoder.linkedlist;
+package nowcoder.linkedlist;
 
 import java.util.*;
 class LRUCache {

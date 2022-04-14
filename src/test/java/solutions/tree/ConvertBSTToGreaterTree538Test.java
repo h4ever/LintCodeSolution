@@ -1,9 +1,9 @@
-package test.java.solutions.tree;
+package solutions.tree;
 
-import main.java.solutions.tree.BinaryTreeLevelOrderTraversal102;
-import main.java.solutions.tree.ConstructBinaryTreePreorderInorder105;
-import main.java.solutions.tree.ConvertBSTToGreaterTree538;
-import main.java.structure.TreeNode;
+import solutions.tree.BinaryTreeLevelOrderTraversal102;
+import solutions.tree.ConstructBinaryTreePreorderInorder105;
+import solutions.tree.ConvertBSTToGreaterTree538;
+import structure.TreeNode;
 import org.junit.Test;
 
 public class ConvertBSTToGreaterTree538Test {

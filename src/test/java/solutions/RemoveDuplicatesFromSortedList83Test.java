@@ -1,7 +1,7 @@
-package test.java.solutions;
+package solutions;
 
-import main.java.solutions.RemoveDuplicatesFromSortedList83;
-import main.java.structure.ListNode;
+import solutions.RemoveDuplicatesFromSortedList83;
+import structure.ListNode;
 import org.junit.Test;
 
 public class RemoveDuplicatesFromSortedList83Test {

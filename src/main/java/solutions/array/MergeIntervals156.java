@@ -1,6 +1,6 @@
-package main.java.solutions.array;
+package solutions.array;
 
-import main.java.structure.Interval;
+import structure.Interval;
 
 import java.util.*;
 

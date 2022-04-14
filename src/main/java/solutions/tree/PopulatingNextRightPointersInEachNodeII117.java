@@ -1,6 +1,6 @@
-package main.java.solutions.tree;
+package solutions.tree;
 
-import main.java.structure.TreeLinkNode;
+import structure.TreeLinkNode;
 
 public class PopulatingNextRightPointersInEachNodeII117 {
     /*

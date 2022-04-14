@@ -1,6 +1,6 @@
-package main.java.solutions.tree;
+package solutions.tree;
 
-import main.java.structure.TreeNode;
+import structure.TreeNode;
 
 import java.util.HashSet;
 import java.util.Set;

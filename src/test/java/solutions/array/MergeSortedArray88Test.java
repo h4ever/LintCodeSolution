@@ -1,6 +1,6 @@
-package test.java.solutions.array;
+package solutions.array;
 
-import main.java.solutions.array.MergeSortedArray88;
+import solutions.array.MergeSortedArray88;
 import org.junit.Test;
 
 import java.util.Arrays;

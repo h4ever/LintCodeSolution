@@ -1,7 +1,7 @@
-package test.java.solutions;
+package solutions;
 
-import main.java.solutions.RemoveLinkedListElements;
-import main.java.structure.ListNode;
+import solutions.RemoveLinkedListElements;
+import structure.ListNode;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

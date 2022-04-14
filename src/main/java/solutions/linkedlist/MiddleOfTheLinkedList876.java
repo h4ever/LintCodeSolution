@@ -1,6 +1,6 @@
-package main.java.solutions.linkedlist;
+package solutions.linkedlist;
 
-import main.java.structure.ListNode;
+import structure.ListNode;
 
 import java.util.Arrays;
 import java.util.Comparator;

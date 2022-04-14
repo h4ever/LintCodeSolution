@@ -1,6 +1,6 @@
-package test.java.solutions;
+package solutions;
 
-import main.java.solutions.Sqrt69;
+import solutions.Sqrt69;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,6 +1,6 @@
-package test.java.solutions;
+package solutions;
 
-import main.java.solutions.AddBinary67;
+import solutions.AddBinary67;
 import org.junit.Test;
 
 public class AddBinary67Test {

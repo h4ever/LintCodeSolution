@@ -1,4 +1,4 @@
-package main.java.solutions.math;
+package solutions.math;
 
 import java.math.BigInteger;
 import java.util.Arrays;

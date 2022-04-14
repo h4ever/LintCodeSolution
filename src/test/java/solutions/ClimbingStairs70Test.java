@@ -1,6 +1,6 @@
-package test.java.solutions;
+package solutions;
 
-import main.java.solutions.ClimbingStairs70;
+import solutions.ClimbingStairs70;
 import org.junit.Test;
 
 public class ClimbingStairs70Test {

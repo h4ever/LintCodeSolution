@@ -1,4 +1,4 @@
-package main.java.solutions.twopointers;
+package solutions.twopointers;
 
 public class BackspaceStringCompare844 {
     public static boolean backspaceCompare(String S, String T) {

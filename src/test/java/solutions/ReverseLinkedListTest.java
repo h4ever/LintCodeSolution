@@ -1,7 +1,7 @@
-package test.java.solutions;
+package solutions;
 
-import main.java.solutions.ReverseLinkedList;
-import main.java.structure.ListNode;
+import solutions.ReverseLinkedList;
+import structure.ListNode;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
-package test.java.solutions.array;
+package solutions.array;
 
-import main.java.solutions.array.MajorityElement169;
+import solutions.array.MajorityElement169;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

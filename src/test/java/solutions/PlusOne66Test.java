@@ -1,6 +1,6 @@
-package test.java.solutions;
+package solutions;
 
-import main.java.solutions.PlusOne66;
+import solutions.PlusOne66;
 import org.junit.Test;
 
 public class PlusOne66Test {

@@ -1,4 +1,4 @@
-package main.java.solutions.array;
+package solutions.array;
 
 public class ReplaceElementsWithGreatestElementOnRightSide1299 {
     /*

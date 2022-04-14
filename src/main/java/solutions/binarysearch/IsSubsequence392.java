@@ -1,4 +1,4 @@
-package main.java.solutions.binarysearch;
+package solutions.binarysearch;
 
 public class IsSubsequence392 {
     /*

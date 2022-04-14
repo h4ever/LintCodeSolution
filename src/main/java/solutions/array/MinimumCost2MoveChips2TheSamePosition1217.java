@@ -1,4 +1,4 @@
-package main.java.solutions.array;
+package solutions.array;
 
 public class MinimumCost2MoveChips2TheSamePosition1217 {
     /*

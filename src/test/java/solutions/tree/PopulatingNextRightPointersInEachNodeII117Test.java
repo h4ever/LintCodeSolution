@@ -1,7 +1,7 @@
-package test.java.solutions.tree;
+package solutions.tree;
 
-import main.java.solutions.tree.PopulatingNextRightPointersInEachNodeII117;
-import main.java.structure.TreeLinkNode;
+import solutions.tree.PopulatingNextRightPointersInEachNodeII117;
+import structure.TreeLinkNode;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

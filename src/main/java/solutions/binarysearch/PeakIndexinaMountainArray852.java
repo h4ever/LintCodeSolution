@@ -1,4 +1,4 @@
-package main.java.solutions.binarysearch;
+package solutions.binarysearch;
 
 public class PeakIndexinaMountainArray852 {
     public static int peakIndexInMountainArray(int[] A) {

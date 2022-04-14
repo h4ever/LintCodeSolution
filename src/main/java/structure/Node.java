@@ -1,4 +1,4 @@
-package main.java.structure;
+package structure;
 
 import java.util.List;
 

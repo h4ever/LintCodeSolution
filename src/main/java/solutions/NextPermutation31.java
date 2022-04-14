@@ -1,4 +1,4 @@
-package main.java.solutions;
+package solutions;
 
 public class NextPermutation31 {
     public void nextPermutation(int[] nums) {

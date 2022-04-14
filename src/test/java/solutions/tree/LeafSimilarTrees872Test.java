@@ -1,7 +1,7 @@
-package test.java.solutions.tree;
+package solutions.tree;
 
-import main.java.solutions.tree.LeafSimilarTrees872;
-import main.java.structure.TreeNode;
+import solutions.tree.LeafSimilarTrees872;
+import structure.TreeNode;
 import org.junit.Test;
 
 import java.util.ArrayDeque;
@@ -17,7 +17,7 @@ public class LeafSimilarTrees872Test {
         */
     @Test
     public void dfs() {
-        TreeNode root = test.java.solutions.tree.LongestUnivaluePath687Test.generateTestData();
+        TreeNode root = solutions.tree.LongestUnivaluePath687Test.generateTestData();
         LeafSimilarTrees872 testInstance = new LeafSimilarTrees872();
         String leaves = testInstance.dfs(root);
         System.out.println(leaves);
@@ -25,7 +25,7 @@ public class LeafSimilarTrees872Test {
 
     @Test
     public void dfs2() {
-        TreeNode root = test.java.solutions.tree.LongestUnivaluePath687Test.generateTestData();
+        TreeNode root = solutions.tree.LongestUnivaluePath687Test.generateTestData();
         LeafSimilarTrees872 testInstance = new LeafSimilarTrees872();
         Deque<TreeNode> stack = new ArrayDeque<>();
         stack.push(root);

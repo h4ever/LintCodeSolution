@@ -1,4 +1,4 @@
-package main.java.solutions.string;
+package solutions.string;
 
 public class ImplementStrStrFunc28 {
     public int strStr(String haystack, String needle) {

@@ -1,4 +1,4 @@
-package main.java.solutions.math;
+package solutions.math;
 
 public class LargestTimeForGivenDigits949 {
     /*

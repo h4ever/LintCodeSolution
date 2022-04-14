@@ -1,4 +1,4 @@
-package main.java.solutions.string;
+package solutions.string;
 
 public class LongestCommonPrefix14 {
     public String longestCommonPrefix(String[] strs) {

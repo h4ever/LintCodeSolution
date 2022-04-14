@@ -1,6 +1,6 @@
-package main.java.solutions.linkedlist;
+package solutions.linkedlist;
 
-import main.java.structure.ListNode;
+import structure.ListNode;
 
 public class RemoveLinkedListElements203 {
     public static ListNode removeElements(ListNode head, int val) {

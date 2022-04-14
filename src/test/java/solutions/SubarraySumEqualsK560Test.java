@@ -1,6 +1,6 @@
-package test.java.solutions;
+package solutions;
 
-import main.java.solutions.SubarraySumEqualsK560;
+import solutions.SubarraySumEqualsK560;
 import org.junit.Test;
 
 import java.util.List;

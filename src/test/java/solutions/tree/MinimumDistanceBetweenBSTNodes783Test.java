@@ -1,7 +1,7 @@
-package test.java.solutions.tree;
+package solutions.tree;
 
-import main.java.solutions.tree.MinimumDistanceBetweenBSTNodes783;
-import main.java.structure.TreeNode;
+import solutions.tree.MinimumDistanceBetweenBSTNodes783;
+import structure.TreeNode;
 import org.junit.Test;
 
 public class MinimumDistanceBetweenBSTNodes783Test {

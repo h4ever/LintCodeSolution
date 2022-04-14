@@ -1,7 +1,7 @@
-package test.java.solutions;
+package solutions;
 
-import main.java.solutions.InsertionSortList;
-import main.java.structure.ListNode;
+import solutions.InsertionSortList;
+import structure.ListNode;
 import org.junit.Test;
 
 public class InsertionSortListTest {

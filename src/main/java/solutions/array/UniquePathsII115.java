@@ -1,4 +1,4 @@
-package main.java.solutions.array;
+package solutions.array;
 
 public class UniquePathsII115 {
     public static int uniquePathsWithObstacles(int[][] obstacleGrid) {

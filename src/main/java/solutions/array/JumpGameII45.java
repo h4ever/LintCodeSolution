@@ -1,4 +1,4 @@
-package main.java.solutions.array;
+package solutions.array;
 
 public class JumpGameII45 {
     public static int jump(int[] nums) {

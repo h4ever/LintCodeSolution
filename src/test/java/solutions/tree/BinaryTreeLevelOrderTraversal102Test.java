@@ -1,7 +1,7 @@
-package test.java.solutions.tree;
+package solutions.tree;
 
-import main.java.solutions.tree.BinaryTreeLevelOrderTraversal102;
-import main.java.structure.TreeNode;
+import solutions.tree.BinaryTreeLevelOrderTraversal102;
+import structure.TreeNode;
 import org.junit.Test;
 
 public class BinaryTreeLevelOrderTraversal102Test {

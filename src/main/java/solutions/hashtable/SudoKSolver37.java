@@ -1,4 +1,4 @@
-package main.java.solutions.hashtable;
+package solutions.hashtable;
 
 public class SudoKSolver37 {
     public void solveSudoku(int[][] board) {

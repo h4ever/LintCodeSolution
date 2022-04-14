@@ -1,4 +1,4 @@
-package main.java.solutions.heap;
+package solutions.heap;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

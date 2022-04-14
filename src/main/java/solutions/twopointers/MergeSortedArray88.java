@@ -1,4 +1,4 @@
-package main.java.solutions.twopointers;
+package solutions.twopointers;
 
 public class MergeSortedArray88 {
     /*

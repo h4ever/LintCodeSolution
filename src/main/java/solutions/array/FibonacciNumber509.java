@@ -1,5 +1,5 @@
 
-package main.java.solutions.array;
+package solutions.array;
 
 public class FibonacciNumber509 {
     /*

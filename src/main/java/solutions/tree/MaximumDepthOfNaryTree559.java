@@ -1,6 +1,6 @@
-package main.java.solutions.tree;
+package solutions.tree;
 
-import main.java.structure.Node;
+import structure.Node;
 
 public class MaximumDepthOfNaryTree559 {
     /*

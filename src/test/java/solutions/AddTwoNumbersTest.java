@@ -1,7 +1,7 @@
-package test.java.solutions;
+package solutions;
 
-import main.java.solutions.AddTwoNumbers;
-import main.java.structure.ListNode;
+import solutions.AddTwoNumbers;
+import structure.ListNode;
 import org.junit.Test;
 
 public class AddTwoNumbersTest {

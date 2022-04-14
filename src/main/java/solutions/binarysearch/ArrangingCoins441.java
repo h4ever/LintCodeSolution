@@ -1,4 +1,4 @@
-package main.java.solutions.binarysearch;
+package solutions.binarysearch;
 
 public class ArrangingCoins441 {
     public static int arrangeCoins(int n) {

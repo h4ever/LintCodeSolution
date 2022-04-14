@@ -1,6 +1,6 @@
-package test.java.solutions;
+package solutions;
 
-import main.java.solutions.ValidParentheses;
+import solutions.ValidParentheses;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

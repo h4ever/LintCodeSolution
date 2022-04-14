@@ -1,4 +1,4 @@
-package main.java.solutions.hashtable;
+package solutions.hashtable;
 
 import java.util.ArrayList;
 import java.util.HashSet;

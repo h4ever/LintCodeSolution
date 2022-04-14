@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 >
-    <modelVersion/>
 
+    <modelVersion>4.0.0</modelVersion>
     <!-- 公司或者组织的唯一标志，并且配置时生成的路径也是由此生成， 如com.winner.trade，maven会将该项目打成的jar包放本地路径：/com/winner/trade -->
     <groupId>com.aisainfo</groupId>
 
@@ -31,8 +31,8 @@
     <!-- 为pom定义一些常量，在pom中的其它地方可以直接引用 使用方式 如下 ：${file.encoding} -->
     <properties>
         <file.encoding>UTF-8</file.encoding>
-        <java.source.version>11.0</java.source.version>
-        <java.target.version>11.0</java.target.version>
+        <java.source.version>8.0</java.source.version>
+        <java.target.version>8.0</java.target.version>
     </properties>
 
 </project>

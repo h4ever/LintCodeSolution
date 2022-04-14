@@ -1,4 +1,4 @@
-package main.java.solutions;
+package solutions;
 
 public class AddBinary67 {
 	public String addBinary(String a, String b) {

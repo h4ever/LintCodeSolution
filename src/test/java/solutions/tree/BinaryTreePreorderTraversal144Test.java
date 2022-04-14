@@ -1,8 +1,8 @@
-package test.java.solutions.tree;
+package solutions.tree;
 
-import main.java.solutions.tree.BinaryTreePreorderTraversal144;
-import main.java.solutions.tree.ConstructBinaryTreePreorderInorder105;
-import main.java.structure.TreeNode;
+import solutions.tree.BinaryTreePreorderTraversal144;
+import solutions.tree.ConstructBinaryTreePreorderInorder105;
+import structure.TreeNode;
 import org.junit.Test;
 
 import java.util.List;

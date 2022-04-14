@@ -1,7 +1,7 @@
-package test.java.solutions.array;
+package solutions.array;
 
 import org.junit.Test;
-import main.java.solutions.array.PascalsTriangleII119;
+import solutions.array.PascalsTriangleII119;
 
 import static org.junit.Assert.*;
 

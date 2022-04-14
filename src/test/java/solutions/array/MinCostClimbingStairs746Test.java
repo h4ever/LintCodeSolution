@@ -1,6 +1,6 @@
-package test.java.solutions.array;
+package solutions.array;
 
-import main.java.solutions.array.MinCostClimbingStairs746;
+import solutions.array.MinCostClimbingStairs746;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

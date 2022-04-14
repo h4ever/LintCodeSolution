@@ -1,6 +1,6 @@
-package main.java.solutions;
+package solutions;
 
-import main.java.structure.ListNode;
+import structure.ListNode;
 
 public class MergeTwoSortedList {
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

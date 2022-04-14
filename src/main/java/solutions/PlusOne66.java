@@ -1,4 +1,4 @@
-package main.java.solutions;
+package solutions;
 
 public class PlusOne66 {
 	public int[] plusOne(int[] digits) {

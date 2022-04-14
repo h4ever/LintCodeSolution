@@ -1,8 +1,8 @@
-package test.java.solutions.array;
+package solutions.array;
 
 import org.junit.Test;
 
-import main.java.solutions.array.PascalsTriangle118;
+import solutions.array.PascalsTriangle118;
 
 import static org.junit.Assert.*;
 

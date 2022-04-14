@@ -1,4 +1,4 @@
-package main.java.solutions.string;
+package solutions.string;
 
 public class DecompressString282 {
     public static String DecompressString(String Message) {

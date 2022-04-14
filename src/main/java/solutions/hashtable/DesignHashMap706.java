@@ -1,4 +1,4 @@
-package main.java.solutions.hashtable;
+package solutions.hashtable;
 
 public class DesignHashMap706 {
     final ListNode[] buckets;

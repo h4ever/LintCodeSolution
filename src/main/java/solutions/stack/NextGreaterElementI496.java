@@ -1,4 +1,4 @@
-package main.java.solutions.stack;
+package solutions.stack;
 
 import java.util.HashMap;
 import java.util.Map;

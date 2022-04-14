@@ -1,6 +1,6 @@
-package main.java.solutions.twopointers;
+package solutions.twopointers;
 
-import main.java.structure.ListNode;
+import structure.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;

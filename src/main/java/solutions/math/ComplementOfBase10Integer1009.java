@@ -1,4 +1,4 @@
-package main.java.solutions.math;
+package solutions.math;
 
 public class ComplementOfBase10Integer1009 {
     public static int bitwiseComplement(int N) {
