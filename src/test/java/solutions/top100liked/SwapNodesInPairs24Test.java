@@ -11,6 +11,7 @@ public class SwapNodesInPairs24Test {
     public void swapPairs() {
         ListNode head = ListNode.generateList("1->2->3->4->null");
         SwapNodesInPairs24 test = new SwapNodesInPairs24();
-        test.swapPairs2(head);
+        ListNode x = test.swapPairs(head);
+        System.out.println(x);
     }
 }

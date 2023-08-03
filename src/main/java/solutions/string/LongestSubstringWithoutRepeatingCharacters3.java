@@ -10,7 +10,7 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
         /**
          *  map key   字符串中的字符
             map value   字符串从前到后遍历，当前遍历字符最后一次出现的位置
-         *  farthestDuplicateIndex 字符串从前到后遍历，出现重复字符串最远的位置
+         *  farthestDuplicateIndex 字符串从前到后遍历，出现重复字符最远的位置
         */
         Map<Character,Integer> m = new HashMap<>();
         int max = 0;
