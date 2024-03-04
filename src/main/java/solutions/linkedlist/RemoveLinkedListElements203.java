@@ -22,6 +22,7 @@ public class RemoveLinkedListElements203 {
         return sentinal.next;
     }
 
+
     public static void main(String[] args) {
         System.out.println(removeElements(ListNode.generateList("1->2->6->3->4->5->6->null"),6));
     }

@@ -88,4 +88,24 @@ public class BinaryTreePostorderTraversal145 {
         return result;
     }
 
+    public List<Integer> postorderTraversal5(TreeNode root) {
+        List<Integer> ans = new ArrayList<>();
+        if(root==null) return ans;
+        Stack<TreeNode> s = new Stack<>();
+        s.push(root);
+        while(!s.isEmpty()){
+            TreeNode node = s.pop();
+            if(node!=null){
+                s.push(node);
+                s.push(null);
+                if(node.right!=null) s.push(node.right);
+                if(node.left!=null) s.push(node.left);
+            }else{
+                ans.add(s.pop().val);
+            }
+
+        }
+        return ans;
+    }
+
 }

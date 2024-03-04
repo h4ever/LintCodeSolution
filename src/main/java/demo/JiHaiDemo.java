@@ -37,7 +37,7 @@ public class JiHaiDemo {
     private BlockingQueue<RequestPromise> queue = new LinkedBlockingQueue<>();
 
 
-    private Integer stock = 6;
+    private Integer stock = 36;
     /**
      * 用户库存扣减
      */
