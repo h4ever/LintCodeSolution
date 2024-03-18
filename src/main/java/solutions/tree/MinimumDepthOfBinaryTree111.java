@@ -19,6 +19,19 @@ Note: A leaf is a node with no children.
 		int right=minDepth(root.right);
 		return (left==0||right==0)?(left+right+1):Math.min(left, right)+1;
 	}
+
+	public int minDepthDfs(TreeNode root){
+		if(root==null) return 0;
+
+		if(root.left==null){
+			return 1+minDepth(root.right);
+		} else if(root.right==null){
+			return 1+minDepth(root.left);
+		}else{
+			return 1+Math.min(minDepth(root.left),minDepth(root.right));
+		}
+
+	}
 	
 	public int minDepthBFS(TreeNode root) {
 		if(root==null) return 0;

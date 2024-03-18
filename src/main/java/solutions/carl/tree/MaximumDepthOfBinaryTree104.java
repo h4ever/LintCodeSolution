@@ -3,9 +3,7 @@ package solutions.carl.tree;
 import structure.TreeNode;
 
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Deque;
-import java.util.List;
 
 public class MaximumDepthOfBinaryTree104 {
     public int maxDepth(TreeNode root) {

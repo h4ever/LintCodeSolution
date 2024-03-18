@@ -18,7 +18,7 @@ public class FindBottomLeftTreeValue513 {
             while(nodeCountInOneRow-->0){
                 leftMost = q.poll();
                 if(leftMost.right!=null){
-                    q.offer(leftMost.right);
+                    q.offer(leftMost.right);//右侧节点先入队
                 }
                 if(leftMost.left!=null){
                     q.offer(leftMost.left);
